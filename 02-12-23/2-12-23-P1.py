@@ -36,7 +36,7 @@ def read_game_records_from_file(file_path):
     return game_records
 
 
-file_path = '02-12-23\input.txt'  # Replace with the path to your file
+file_path = '02-12-23\input.txt'
 cube_counts = {'red': 12, 'green': 13, 'blue': 14}
 
 game_records = read_game_records_from_file(file_path)

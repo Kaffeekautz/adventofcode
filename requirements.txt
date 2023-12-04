@@ -1,1 +1,1 @@
-word2number
+functools
