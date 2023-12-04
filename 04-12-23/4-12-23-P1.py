@@ -1,6 +1,6 @@
-def calculate_points(winning_numbers, your_numbers):
+def calculate_points(winning_numbers, my_numbers):
     # Find the numbers that are both in winning_numbers and your_numbers
-    matches = [num for num in your_numbers if num in winning_numbers]
+    matches = [num for num in my_numbers if num in winning_numbers]
     matches_count = len(matches)
 
     # Display the matches for this card
